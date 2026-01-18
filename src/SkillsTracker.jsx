@@ -3,13 +3,14 @@ import "./Portfolio.css";
 
 export default function SkillsTracker() {
   const skills = [
-    { name: "Networking", level: 21 },
-    { name: "Linux Systems", level: 0 },
+    { name: "Networking", level: 73},
+    { name: "Linux Systems", level: 69 },
     { name: "Ethical Hacking", level: 0 },
     { name: "Cloud Security", level: 0 },
     { name: "SIEM & Threat Analysis", level: 0 },
     { name: "Incident Response", level: 0 },
     { name: "Scripting & Automation", level: 0 },
+    { name: "Artificial Intelligence Jail breaking ", level: 63},
   ];
 
   return (
@@ -36,7 +37,7 @@ export default function SkillsTracker() {
       </div>
 
       <div className="goal-message">
-        <p>🎯 Goal: Reach 100% on all core skills by end of 2025.</p>
+        <p>🎯 Goal: Reach 100% on all core skills by end of 2026.</p>
       </div>
     </div>
   );
